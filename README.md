@@ -1,5 +1,6 @@
 # Knight's Daily Special Scraper
-Who doesn't love [Knight's](http://www.knightsrestaurants.com/)? Their steak sandwich lunch special is delicious. So here is a simple HTML scraper to get Knight's current lunch specials is a very interceptable way.
+Who doesn't love [Knight's](http://www.knightsrestaurants.com/)? Their steak sandwich lunch special is delicious.
+So here is a simple HTML scraper to get Knight's current specials for their various locations in a very interceptable way (JSON, pretty JSON, or just CLI output).
 
 ## Installation
 
