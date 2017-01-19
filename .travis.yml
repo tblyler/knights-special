@@ -1,0 +1,16 @@
+branches:
+  only:
+  - master
+
+language: go
+
+go:
+  - tip
+
+before_install:
+  - go get github.com/mitchellh/gox
+  - go get github.com/tcnksm/ghr
+
+script:
+  - gox -output "dist/knights-special-{{.OS}}_{{.Arch}}"
+  - ghr -username tblyler -token "${GITHUB_TOKEN}" -recreate v1.0.0 dist/
